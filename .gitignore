@@ -1,0 +1,50 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+*.egg
+*.egg-info
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Database files
+*.db
+*.sqlite3
+
+# Test and coverage reports
+.coverage
+*.cover
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Static files and files to be excluded from Git
+data/
+output/
+*.csv
+*.json
+*.txt
+*.xlsx
+
+# IDE-specific files (e.g., for VSCode, PyCharm)
+.vscode/
+.idea/

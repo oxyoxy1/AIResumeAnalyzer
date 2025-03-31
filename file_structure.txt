@@ -1,0 +1,40 @@
+resume_analyzer/
+│
+├── app/                      # Core application logic
+│   ├── __init__.py           # Marks the directory as a package
+│   ├── parser.py             # Handles resume parsing (PDF/DOCX extraction)
+│   ├── extractor.py          # Extracts sections using NLP
+│   ├── scorer.py             # Scores resumes based on criteria
+│   ├── recommender.py        # Provides suggestions for improvement
+│   └── matcher.py            # Matches resumes to job descriptions
+│
+├── models/                   # Pre-trained models or custom ML models
+│   └── spacy_model/          # NLP models (e.g., spaCy custom model)
+│
+├── data/                     # Static files or datasets (e.g., skills database)
+│   ├── job_keywords.json     # Common keywords for matching
+│   ├── stopwords.txt         # Stopwords for text preprocessing
+│   └── sample_resumes/       # Sample resumes for testing
+│
+├── tests/                    # Unit tests
+│   ├── __init__.py           # Marks the directory as a package
+│   ├── test_parser.py        # Tests for parser module
+│   ├── test_extractor.py     # Tests for extractor module
+│   └── test_scorer.py        # Tests for scorer module
+│
+├── gui/                      # Optional GUI components
+│   ├── __init__.py           # Marks the directory as a package
+│   └── main_window.py        # GUI implementation (e.g., Tkinter or PyQt)
+│
+├── utils/                    # Utility functions
+│   ├── __init__.py           # Marks the directory as a package
+│   └── file_utils.py         # Helper functions for file handling
+│
+├── output/                   # Stores analysis results
+│   ├── results.json          # JSON file with processed data
+│   └── reports/              # Generated reports (e.g., PDFs or text files)
+│
+├── requirements.txt          # Python dependencies
+├── README.md                 # Project documentation
+├── main.py                   # Entry point for the application
+└── .gitignore                # Git ignore file
